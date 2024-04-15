@@ -1,4 +1,4 @@
-package com.flydroid.birdy
+package com.flydroid.birdy.utils
 
 import java.text.SimpleDateFormat
 import java.util.Locale

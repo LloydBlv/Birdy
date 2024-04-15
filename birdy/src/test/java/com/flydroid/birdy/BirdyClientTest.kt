@@ -3,9 +3,15 @@ package com.flydroid.birdy
 import android.Manifest.permission
 import android.location.Location
 import androidx.test.platform.app.InstrumentationRegistry
+import com.flydroid.birdy.auth.AuthManagerDefault
+import com.flydroid.birdy.clients.BirdyGooglePlayServices
 import com.flydroid.birdy.domain.LastLocationParams
 import com.flydroid.birdy.domain.OneshotRequest
 import com.flydroid.birdy.domain.toLastLocationRequest
+import com.flydroid.birdy.http.HttpClient
+import com.flydroid.birdy.location.LocationProviderDefault
+import com.flydroid.birdy.sync.LocationSyncer
+import com.flydroid.birdy.sync.LocationSyncerDefault
 import com.google.android.gms.location.FusedLocationProviderClient
 import com.google.android.gms.location.LocationServices
 import com.google.android.gms.tasks.OnSuccessListener

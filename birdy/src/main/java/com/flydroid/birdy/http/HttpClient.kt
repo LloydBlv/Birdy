@@ -1,4 +1,4 @@
-package com.flydroid.birdy
+package com.flydroid.birdy.http
 
 import com.flydroid.birdy.domain.Tokens
 

@@ -1,8 +1,9 @@
-package com.flydroid.birdy
+package com.flydroid.birdy.location
 
 
 import android.content.Context
 import android.location.Location
+import com.flydroid.birdy.debug.DebugLogger
 import com.flydroid.birdy.domain.ObserveParams
 import com.flydroid.birdy.domain.OneshotRequest
 import com.flydroid.birdy.domain.toCurrentLocationRequest

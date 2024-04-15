@@ -1,4 +1,4 @@
-package com.flydroid.birdy
+package com.flydroid.birdy.extensions
 
 import android.Manifest
 import android.content.Context

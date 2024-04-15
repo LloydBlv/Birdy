@@ -1,11 +1,11 @@
-package com.flydroid.birdy
+package com.flydroid.birdy.utils
 
 import android.util.Log
+import com.flydroid.birdy.debug.DebugLogger
 import com.flydroid.birdy.domain.TokenExpiredException
 import org.json.JSONObject
 import java.net.HttpURLConnection
 import java.net.URL
-import java.nio.charset.StandardCharsets
 
 class NetworkHelper(
     private val debugLogger: DebugLogger

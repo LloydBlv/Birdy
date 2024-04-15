@@ -1,4 +1,4 @@
-package com.flydroid.birdy
+package com.flydroid.birdy.auth
 
 interface AuthManager {
     var accessToken: String?

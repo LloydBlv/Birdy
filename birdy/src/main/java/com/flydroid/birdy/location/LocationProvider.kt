@@ -1,4 +1,4 @@
-package com.flydroid.birdy
+package com.flydroid.birdy.location
 
 import com.flydroid.birdy.domain.ObserveParams
 import com.flydroid.birdy.domain.OneshotRequest

@@ -1,6 +1,10 @@
 package com.flydroid.birdy
 
 import android.content.Context
+import com.flydroid.birdy.clients.BirdyClient
+import com.flydroid.birdy.clients.BirdyGooglePlayServices
+import com.flydroid.birdy.debug.DebugLogger
+import com.flydroid.birdy.debug.DebugLoggerDefault
 import com.flydroid.birdy.domain.ObserveParams
 import com.flydroid.birdy.domain.OneshotRequest
 

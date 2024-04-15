@@ -1,8 +1,8 @@
 package com.flydroid.birdysample
 
 import androidx.lifecycle.ViewModel
-import com.flydroid.birdy.DebugLogger
-import com.flydroid.birdy.DebugLoggerDefault
+import com.flydroid.birdy.debug.DebugLogger
+import com.flydroid.birdy.debug.DebugLoggerDefault
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow

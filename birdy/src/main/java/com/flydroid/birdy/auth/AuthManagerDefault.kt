@@ -1,7 +1,8 @@
-package com.flydroid.birdy
+package com.flydroid.birdy.auth
 
 import android.content.Context
 import android.content.SharedPreferences
+import com.flydroid.birdy.http.HttpClient
 
 class AuthManagerDefault(
     context: Context,

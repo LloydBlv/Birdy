@@ -1,8 +1,11 @@
 package com.flydroid.birdy
 
 import androidx.test.platform.app.InstrumentationRegistry
+import com.flydroid.birdy.auth.AuthManagerDefault
 import com.flydroid.birdy.domain.TokenExpiredException
 import com.flydroid.birdy.domain.Tokens
+import com.flydroid.birdy.http.HttpClient
+import com.flydroid.birdy.sync.LocationSyncerDefault
 import io.mockk.every
 import io.mockk.mockk
 import io.mockk.verify

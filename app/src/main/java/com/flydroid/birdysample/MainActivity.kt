@@ -37,8 +37,8 @@ import com.flydroid.birdy.Birdy
 import com.flydroid.birdy.domain.LastLocationParams
 import com.flydroid.birdy.domain.ObserveParams
 import com.flydroid.birdy.domain.OneshotRequest
-import com.flydroid.birdy.hasCoarseLocationPermission
-import com.flydroid.birdy.hasFineLocationPermission
+import com.flydroid.birdy.extensions.hasCoarseLocationPermission
+import com.flydroid.birdy.extensions.hasFineLocationPermission
 import com.flydroid.birdysample.ui.theme.BirdySampleTheme
 
 @OptIn(ExperimentalFoundationApi::class, ExperimentalMaterial3Api::class)

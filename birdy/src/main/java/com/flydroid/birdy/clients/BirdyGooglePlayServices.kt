@@ -1,11 +1,19 @@
-package com.flydroid.birdy
+package com.flydroid.birdy.clients
 
 import android.annotation.SuppressLint
 import android.content.Context
 import android.util.Log
 import androidx.annotation.VisibleForTesting
+import com.flydroid.birdy.debug.DebugLogger
+import com.flydroid.birdy.debug.DebugLoggerDefault
 import com.flydroid.birdy.domain.ObserveParams
 import com.flydroid.birdy.domain.OneshotRequest
+import com.flydroid.birdy.extensions.hasCoarseLocationPermission
+import com.flydroid.birdy.extensions.hasFineLocationPermission
+import com.flydroid.birdy.location.LocationProvider
+import com.flydroid.birdy.location.LocationProviderDefault
+import com.flydroid.birdy.sync.LocationSyncer
+import com.flydroid.birdy.sync.LocationSyncerDefault
 import kotlinx.coroutines.CoroutineDispatcher
 import kotlinx.coroutines.CoroutineExceptionHandler
 import kotlinx.coroutines.CoroutineScope

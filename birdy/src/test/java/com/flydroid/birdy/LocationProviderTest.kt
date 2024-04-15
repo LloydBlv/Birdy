@@ -4,6 +4,7 @@ import androidx.test.platform.app.InstrumentationRegistry
 import assertk.assertions.isFalse
 import assertk.assertions.isTrue
 import com.flydroid.birdy.domain.ObserveParams
+import com.flydroid.birdy.location.LocationProviderDefault
 import com.google.android.gms.location.LocationServices
 import org.junit.Test
 import org.junit.runner.RunWith

@@ -1,6 +1,9 @@
-package com.flydroid.birdy
+package com.flydroid.birdy.http
 
+import com.flydroid.birdy.debug.DebugLogger
 import com.flydroid.birdy.domain.Tokens
+import com.flydroid.birdy.utils.DateUtils
+import com.flydroid.birdy.utils.NetworkHelper
 import org.json.JSONObject
 
 class HttpClientDefault(

@@ -2,11 +2,12 @@ package com.flydroid.birdy
 
 import androidx.test.platform.app.InstrumentationRegistry
 import assertk.assertThat
-import assertk.assertions.isEmpty
 import assertk.assertions.isEqualTo
 import assertk.assertions.isNotNull
 import assertk.assertions.isNull
+import com.flydroid.birdy.auth.AuthManagerDefault
 import com.flydroid.birdy.domain.Tokens
+import com.flydroid.birdy.http.HttpClient
 import io.mockk.every
 import io.mockk.mockk
 import org.junit.Test

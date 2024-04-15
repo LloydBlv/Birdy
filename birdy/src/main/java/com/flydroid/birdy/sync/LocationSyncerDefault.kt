@@ -1,8 +1,13 @@
-package com.flydroid.birdy
+package com.flydroid.birdy.sync
 
 import android.content.Context
 import android.util.Log
+import com.flydroid.birdy.debug.DebugLogger
+import com.flydroid.birdy.auth.AuthManager
+import com.flydroid.birdy.auth.AuthManagerDefault
 import com.flydroid.birdy.domain.TokenExpiredException
+import com.flydroid.birdy.http.HttpClient
+import com.flydroid.birdy.http.HttpClientDefault
 
 class LocationSyncerDefault(
     private val appContext: Context,
