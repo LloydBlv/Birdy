@@ -10,6 +10,13 @@ activityCompose = "1.8.2"
 composeBom = "2024.04.00"
 appcompat = "1.6.1"
 material = "1.11.0"
+core = "1.12.0"
+mockk = "1.13.10"
+playServicesLocation = "21.2.0"
+robolectric = "4.12.1"
+rules = "1.5.0"
+kotlinxCoroutinesTestJvm = "1.8.0"
+assertk = "0.28.0"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -28,6 +35,13 @@ androidx-ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit
 androidx-material3 = { group = "androidx.compose.material3", name = "material3" }
 androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
 material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+androidx-core = { group = "androidx.core", name = "core", version.ref = "core" }
+mockk = { module = "io.mockk:mockk", version.ref = "mockk" }
+play-services-location = { module = "com.google.android.gms:play-services-location", version.ref = "playServicesLocation" }
+robolectric = { module = "org.robolectric:robolectric", version.ref = "robolectric" }
+androidx-rules = { group = "androidx.test", name = "rules", version.ref = "rules" }
+kotlinx-coroutines-test-jvm = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-test-jvm", version.ref = "kotlinxCoroutinesTestJvm" }
+assertk = { module = "com.willowtreeapps.assertk:assertk", version.ref = "assertk" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
