@@ -1,6 +1,7 @@
 plugins {
     alias(libs.plugins.android.library)
     alias(libs.plugins.jetbrains.kotlin.android)
+    id("maven-publish")
 }
 
 android {
@@ -43,4 +44,20 @@ dependencies {
     testImplementation(libs.robolectric)
     testImplementation(libs.mockk)
     testImplementation(libs.assertk)
+}
+
+afterEvaluate {
+    publishing {
+        publications {
+            create<MavenPublication>("birdy-android") {
+                groupId = "com.github.flydroid"
+                artifactId = "birdy-android"
+                version = "1.0.0"
+
+                afterEvaluate {
+                    artifact(tasks.getByName("bundleReleaseAar"))
+                }
+            }
+        }
+    }
 }
