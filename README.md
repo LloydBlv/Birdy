@@ -1,5 +1,6 @@
 [![](https://jitpack.io/v/LloydBlv/Birdy.svg)](https://jitpack.io/#LloydBlv/Birdy)
 
+
 # Birdy SDK
 
 The Birdy SDK is a comprehensive Android library designed to facilitate real-time and on-demand location tracking. Utilizing Android's Fused Location Provider, Birdy offers precise location updates efficiently, suitable for applications that depend on reliable location data.
@@ -37,14 +38,14 @@ allprojects {
 
 #### Step 2: Add the Birdy SDK dependency
 
-Add the following line to your app's `build.gradle` file:
+Add the following lines to your app's `build.gradle` file:
 
 ```gradle
 dependencies {
-    implementation 'com.github.LloydBlv:Birdy:latest.release.here'
+    implementation("com.github.LloydBlv:Birdy:V1.0.0")
+    implementation("com.google.android.gms:play-services-location:21.2.0")
 }
 ```
-Replace `latest.release.here` with the latest release version of Birdy.
 
 ### Usage
 
