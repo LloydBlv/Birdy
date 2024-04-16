@@ -1,6 +1,6 @@
 plugins {
-    alias(libs.plugins.android.library)
-    alias(libs.plugins.jetbrains.kotlin.android)
+    id("com.android.library")
+    kotlin("android")
     id("maven-publish")
 }
 
@@ -36,8 +36,8 @@ android {
 }
 
 dependencies {
-    implementation(libs.play.services.location)
-    implementation(libs.androidx.core)
+    implementation("com.google.android.gms:play-services-location:21.2.0")
+    implementation("androidx.core:core:1.12.0")
     testImplementation(libs.androidx.rules)
     testImplementation(libs.kotlinx.coroutines.test.jvm)
     testImplementation(libs.junit)
